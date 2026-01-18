@@ -1,0 +1,34 @@
+{
+  "name": "Yuta",
+  "version": "1.0.0",
+  "description": "Discord bot con gestión de canales de voz temporales, bienvenida automática y contador de miembros",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "kill-port": "npx kill-port 3000",
+    "kill-all": "npx kill-port 3000 3001 3002 3003 3004 3005"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js",
+    "voice",
+    "temporary-channels"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discord-player/extractor": "^4.5.1",
+    "@discordjs/voice": "^0.17.0",
+    "discord-player": "^6.7.1",
+    "discord-player-youtubei": "^1.5.0",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "ffmpeg-static": "^5.3.0",
+    "opusscript": "^0.0.8",
+    "ytdl-core": "^4.11.5"
+  }
+}
